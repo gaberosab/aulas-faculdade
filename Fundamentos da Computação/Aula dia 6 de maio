@@ -1,0 +1,52 @@
+1)
+n = []
+nome = str(input('Insira um nome '))
+while True:
+    n.append(nome)
+    nome = str(input('Insira um nome '))
+    if nome == '':
+        break
+for i in n:
+    print(i)
+2)
+a = []
+v = []
+for i in range(5):
+    n = int(input('Insira um número '))
+    a.append(n)
+for j in a:
+    if j%2 == 0:
+        v.append(j*2)
+    else:
+       v.append(j*3)
+print('O vetor A é ',a,'\n' 'O vetor V é ',v)
+3)
+import random
+a = []
+for i in range(6):
+    x = random.randint(1,6)
+    a.append(x)
+    if i == x:
+        print('Repetiu')
+print(a)
+4)
+l = []
+v = 0
+n = int(input('Número especifico '))
+while True:
+    b = int(input('Selecione um número para a lista '))
+    if b>=0:
+        l.append(b)
+    else:
+        break
+for i in l:
+    if i == n:
+        v += 1
+print('A lista é ',l,'\n',n,'aparece',v,'vezes')
+5)
+a = []
+for i in range(5):
+    c = int(input('Digite um número '))
+    a.append(c)
+d = list(reversed(a))
+print('Lista Original',a,'\n','Lista Invertida',d)

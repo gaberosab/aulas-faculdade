@@ -1,2 +1,2 @@
 # aulas faculdade
-Excercios das Aulas da Faculdade
+Exercícios das Aulas da Faculdade
